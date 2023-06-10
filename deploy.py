@@ -1,7 +1,7 @@
 import os
 import numpy as np
 import streamlit as st
-from keras.preprocessing import image
+import keras.utils as image
 from keras.models import load_model
 from tempfile import NamedTemporaryFile
 import PIL
